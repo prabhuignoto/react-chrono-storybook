@@ -23,6 +23,6 @@
     "react-is": "^17.0.1"
   },
   "dependencies": {
-    "react-chrono": "^1.7.1"
+    "react-chrono": "^1.7.3"
   }
 }

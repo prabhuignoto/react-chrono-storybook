@@ -8439,10 +8439,10 @@ raw-loader@^4.0.1:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-react-chrono@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.7.1.tgz#85bc2fde15ae96404a4edc29b3122be93310e8d0"
-  integrity sha512-3lp5Xwln0Mr45T/VtMWLerWcf7dmjRL/QGuUTBXh+BMN2WhekDFPgD/SeyIEoGk4XpTueb7EPyfJFN2o9u6Rsw==
+react-chrono@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/react-chrono/-/react-chrono-1.7.3.tgz#78564272827cfda33912b86a0256a89c68bd9176"
+  integrity sha512-cJoh/RYA5oc88C3KmOkdQGlh+LaJaHX2FH3YZRQ1KEMYFVpycWR1zk6P33+ejugyGQitdRFsI+t2pj5FcS1vmw==
   dependencies:
     "@emotion/core" "^10.1.1"
     "@emotion/styled" "^10.0.27"
