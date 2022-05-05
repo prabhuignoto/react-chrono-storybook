@@ -6,25 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build": "build-storybook",
     "chromatic": "npx chromatic --project-token svbrka0czg --auto-accept-changes"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@storybook/addon-actions": "^6.4.1",
-    "@storybook/addon-essentials": "^6.4.1",
-    "@storybook/addon-links": "^6.4.1",
-    "@storybook/react": "^6.4.1",
-    "babel-loader": "^8.2.3",
-    "chromatic": "^6.1.0",
+    "@babel/core": "^7.17.10",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.3.3",
     "react-is": "^17.0.2"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-chrono": "^1.12.4",
+    "react-chrono": "^1.15.0",
     "react-dom": "^17.0.2"
   }
 }
