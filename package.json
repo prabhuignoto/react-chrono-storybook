@@ -11,21 +11,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.18.5",
-    "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addon-links": "^6.5.9",
-    "@storybook/react": "^6.5.9",
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/react": "^6.5.10",
     "babel-loader": "^8.2.5",
-    "babel-plugin-polyfill-corejs2": "^0.3.1",
-    "chromatic": "^6.6.3",
+    "babel-plugin-polyfill-corejs2": "^0.3.2",
+    "chromatic": "^6.7.3",
     "react-is": "^18.2.0"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-chrono": "^1.17.0",
+    "react-chrono": "^1.18.0",
     "react-dom": "^18.2.0"
   }
 }

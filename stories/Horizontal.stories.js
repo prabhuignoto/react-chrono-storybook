@@ -1,8 +1,8 @@
 import React from "react";
-import { Basic } from "./Horizontal";
 import dataImages from "./data-images";
 import dataMixed from "./data-mixed";
 import data from "./data-plain";
+import { Basic } from "./Horizontal";
 
 export default {
   title: "Example/Horizontal",
@@ -15,6 +15,7 @@ export const HorizontalTimeline = Template.bind({});
 HorizontalTimeline.args = {
   items: data,
   mode: "HORIZONTAL",
+  focusActiveItemOnLoad: false
 };
 
 export const HorizontalThemed = Template.bind({});
@@ -31,17 +32,20 @@ export const HorizontalImages = Template.bind({});
 HorizontalImages.args = {
   items: dataImages,
   mode: "HORIZONTAL",
+  focusActiveItemOnLoad: false
 };
 
 export const HorizontalMixed = Template.bind({});
 HorizontalMixed.args = {
   items: dataMixed,
   mode: "HORIZONTAL",
+  focusActiveItemOnLoad: false
 };
 
 export const HorizontalCardPosition = Template.bind({});
 HorizontalCardPosition.args = {
   items: data,
   mode: "HORIZONTAL",
-  cardPositionHorizontal  : "TOP"
+  cardPositionHorizontal  : "TOP",
+  focusActiveItemOnLoad: false
 };
