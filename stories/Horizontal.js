@@ -6,7 +6,7 @@ export const Basic = (args) => {
   return (
     <section className="wrapper">
       <div style={{ width: "650px", height: "750px" }}>
-        <Chrono {...args} />
+        <Chrono {...args} fontSizes={{title: "1rem"}}/>
       </div>
     </section>
   );

@@ -13,19 +13,19 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.21.3",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
     "@storybook/react": "^6.5.16",
     "babel-loader": "^9.1.2",
     "babel-plugin-polyfill-corejs2": "^0.3.3",
-    "chromatic": "^6.15.0",
+    "chromatic": "^6.17.2",
     "react-is": "^18.2.0"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-chrono": "^1.21.1",
+    "react-chrono": "^2.0.1",
     "react-dom": "^18.2.0"
   }
 }

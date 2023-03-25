@@ -6,7 +6,7 @@ export const Vertical = (args) => {
   return (
     <section className="wrapper">
       <div className="vertical-container">
-        <Chrono {...args} />
+        <Chrono {...args} fontSizes={{title: "1rem"}} />
       </div>
     </section>
   );
