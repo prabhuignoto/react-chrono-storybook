@@ -9,8 +9,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0
   react-chrono:
-    specifier: ^2.5.0
-    version: 2.5.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.5.1
+    version: 2.5.1(react-dom@18.2.0)(react@18.2.0)
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
@@ -6717,8 +6717,8 @@ packages:
       unpipe: 1.0.0
     dev: true
 
-  /react-chrono@2.5.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ufbfw3wmal3gmgB/4E8dSKZi6254YtGaVO45AoAwes09DiRWDZDtLnj+HLINGsnPziObPLCslUoIt2otAmgnrA==}
+  /react-chrono@2.5.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-BdWkU1njmAurFeNeZ/4igTUDcxQvTaJm4jilya1PCd3lrZIfdLctg+zS1WEkw3qLirkG2ZJUwoA24fS14j67Hg==}
     peerDependencies:
       react: ^18.1.0
       react-dom: ^18.1.0
