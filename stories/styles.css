@@ -11,3 +11,71 @@
   width: 950px;
   height: 900px;
 }
+
+.responsive-wrapper {
+  flex-direction: column;
+}
+
+.responsive-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 800px;
+  padding: 0 20px;
+}
+
+.current-width, .current-mode, .current-height, .current-orientation, .current-device {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.responsive-info {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Custom styles for the icon examples */
+.custom-icon {
+  color: #4d9de0;
+}
+
+.custom-icon:hover {
+  color: #e15e4d;
+}
+
+/* Media queries for responsive designs */
+@media (max-width: 992px) {
+  .responsive-container {
+    height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+    height: 600px;
+    padding: 0 15px;
+  }
+  
+  .vertical-container {
+    width: 100%;
+    max-width: 600px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-container {
+    height: 500px;
+    padding: 0 10px;
+  }
+  
+  .vertical-container {
+    height: 600px;
+  }
+}
